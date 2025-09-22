@@ -160,6 +160,7 @@ while finalizarcompra == False:
 
 ### Precio promedio de las compras
 precio_promedio = precio_de_la_compra / num_de_compras
+precio_promedio = round(precio_promedio, 2)
 print("El precio promedio por par de zapatillas es de", precio_promedio, "pesos.")
 
 ### Porcentaje de cada marca vendida
